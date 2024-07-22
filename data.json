@@ -1,0 +1,25 @@
+{
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "user": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "items": {
+    "firstItem": "sauce-labs-backpack",
+    "secondItem": "Sauce Labs Bike Light"
+  },
+  "cart": {
+    "expectedCartBadge": "1",
+    "cartLink": ".shopping_cart_link",
+    "expectedItems": ["Sauce Labs Backpack", "Sauce Labs Bike Light"],
+    "remainingItem": ["Sauce Labs Bike Light"]
+  },
+  "messages": {
+    "orderCompletion": "Thank you for your order!",
+    "loginError": "Epic sadface: Username and password do not match any user in this service"
+  }
+}
