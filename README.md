@@ -4,17 +4,21 @@ This repository contains end-to-end tests for the [SauceDemo web store](https://
 
 ## Project Structure
 
-.
-├── data.json
-├── pages
-│ ├── InventoryCartPage.js
-│ ├── CheckoutPage.js
-│ └── LoginPage.js
-├── saucedemo.spec.js
-├── package.json
-├── playwright.config.js
-├── Dockerfile
-└── README.md
+```
+E2E TESTS
+│   data.json    
+│
+└───pages
+│   │   InventoryCartPage.js
+│   │   CheckoutPage.js
+│   │   LoginPage.js
+│   
+│   saucedemo.spec.js
+│   package.json
+│   playwright.config.js
+│   Dockerfile
+│   README.md
+```
 
 - **data.json**: Contains credentials and user data.
 - **pages**: Directory containing POM classes for different pages of the SauceDemo site.
@@ -31,7 +35,6 @@ This repository contains end-to-end tests for the [SauceDemo web store](https://
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/)
 - [Docker](https://www.docker.com/) (optional)
-- (Optional) [Docker Compose](https://docs.docker.com/compose/)
 - [Allure Commandline](https://docs.qameta.io/allure/#_get_started)
 
 ## Setup
